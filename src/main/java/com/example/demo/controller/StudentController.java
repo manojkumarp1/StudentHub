@@ -18,7 +18,7 @@ import com.example.demo.model.Courses;
 import com.example.demo.model.Students;
 import com.example.demo.repositories.StudentRepo;
 
-@CrossOrigin(origins = "https://studenthub-wa9t.onrender.com", allowedHeaders = "*", methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT, RequestMethod.DELETE})
+@CrossOrigin(origins = "http://localhost:3000", methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT, RequestMethod.DELETE}, allowedHeaders = {"*"}, allowCredentials = true)
 @RestController
 public class StudentController {
 
