@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.demo.model.Quizscore;
 import com.example.demo.repositories.QuizScoreRepo;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = {"http://localhost:3000","https://studenthub-app.onrender.com"})
 @RestController
 public class QuizController {
 	

@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.demo.model.Courses;
 import com.example.demo.repositories.CourseRepo;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = {"http://localhost:3000","https://studenthub-app.onrender.com"})
 @RestController
 public class CourseController {
 	
